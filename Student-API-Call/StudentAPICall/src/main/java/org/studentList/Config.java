@@ -14,7 +14,7 @@ public class Config {
             }
             properties.load(input);
         } catch (Exception ex) {
-            ex.printStackTrace();
+            System.out.println(ex.getMessage());
         }
     }
     public String getBaseURL() {
