@@ -2,11 +2,11 @@ package org.studentList;
 
 public class Student {
     private String name;
-    private int id;
+    private int studentId;
 
-    public Student(String name, int id) {
+    public Student(String name, int studentId) {
         this.name = name;
-        this.id = id;
+        this.studentId = studentId;
     }
 
     public Student() {
@@ -22,10 +22,10 @@ public class Student {
     }
 
     public int getId() {
-        return id;
+        return studentId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int studentId) {
+        this.studentId = studentId;
     }
 }
